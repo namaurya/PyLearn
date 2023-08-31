@@ -1,7 +1,8 @@
 {
     "python.analysis.extraPaths": [
         "./src/Methods",
-        "./src/Methods"
+        "./src/Methods",
+        "./src/headfirstsupportfiles/chapter04"
     ],
     "FSharp.suggestGitignore": false
 }
