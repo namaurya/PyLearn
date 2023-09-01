@@ -23,9 +23,7 @@ def get_swim_data(fn: str)-> tuple:
     print(avg)
     #Convert the result into mins:secs.hundreths format
     # Divide the avg by 100 will give seconds and hundredths
-    print(avg/100)
     rounded_avg = round(avg/100,2)
-    print(rounded_avg)
     min_sec,hundredths = str(rounded_avg).split('.')
     min = int(min_sec)//60
     sec =  int(min_sec) - min*60
